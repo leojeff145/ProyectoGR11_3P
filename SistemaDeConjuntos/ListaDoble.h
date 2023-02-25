@@ -13,6 +13,8 @@ public:
 	~ListaDoble();
 	bool estaVacia();
 	int getTamanio();
+	NodoDoble<T>* getCabeza();
+	NodoDoble<T>* getCola();
 	void insertarInicio(T dato);
 	void insertarFinal(T dato);
 	void insertarPosicion(T dato, int posicion);
@@ -20,6 +22,7 @@ public:
 	void eliminarFinal();
 	void eliminarPosicion(int posicion);
 	void mostrar();
+	void ordenarAscendente();
 };
 
 template <typename T>
@@ -45,6 +48,18 @@ template <typename T>
 int ListaDoble<T>::getTamanio()
 {
 	return this->tamanio;
+}
+
+template <typename T>
+NodoDoble<T>* ListaDoble<T>::getCabeza()
+{
+	return this->cabeza;
+}
+
+template <typename T>
+NodoDoble<T>* ListaDoble<T>::getCola()
+{
+	return this->cola;
 }
 
 template <typename T>
@@ -194,6 +209,27 @@ void ListaDoble<T>::mostrar()
 		aux = aux->getSiguiente();
 	}
 	cout << endl;
+}
+
+template <typename T>
+void ListaDoble<T>::ordenarAscendente()
+{
+	NodoDoble<T>* aux = this->cabeza;
+	while (aux != nullptr)
+	{
+		NodoDoble<T>* aux2 = aux->getSiguiente();
+		while (aux2 != nullptr)
+		{
+			if (aux->getDato() > aux2->getDato())
+			{
+				T auxDato = aux->getDato();
+				aux->setDato(aux2->getDato());
+				aux2->setDato(auxDato);
+			}
+			aux2 = aux2->getSiguiente();
+		}
+		aux = aux->getSiguiente();
+	}
 }
 
 
