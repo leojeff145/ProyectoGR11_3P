@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AplicacionConjuntos.h" />
     <ClInclude Include="Conjunto.h" />
     <ClInclude Include="DiagramaVenn.h" />
     <ClInclude Include="ListaDoble.h" />
@@ -134,8 +135,10 @@
     <ClInclude Include="Operacion.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AplicacionConjuntos.cpp" />
     <ClCompile Include="Conjunto.cpp" />
     <ClCompile Include="DiagramaVenn.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Operacion.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -30,6 +30,9 @@
     <ClInclude Include="ListaDoble.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="AplicacionConjuntos.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Operacion.cpp">
@@ -39,6 +42,12 @@
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="DiagramaVenn.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="AplicacionConjuntos.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
