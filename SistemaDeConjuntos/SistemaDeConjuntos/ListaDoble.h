@@ -1,5 +1,8 @@
 #pragma once
 #include "NodoDoble.h"
+#include <iostream>
+
+using namespace std;
 
 template <typename T>
 class ListaDoble
