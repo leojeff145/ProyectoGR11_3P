@@ -21,8 +21,11 @@ public:
 	void eliminarInicio();
 	void eliminarFinal();
 	void eliminarPosicion(int posicion);
+	void eliminarDato(T dato);
 	void mostrar();
 	void ordenarAscendente();
+	bool buscar(T dato);
+	void vaciar();
 };
 
 template <typename T>
@@ -200,6 +203,41 @@ void ListaDoble<T>::eliminarPosicion(int posicion)
 }
 
 template <typename T>
+void ListaDoble<T>::eliminarDato(T dato)
+{
+	if (estaVacia())
+	{
+		throw "Lista vacia";
+	}
+	else
+	{
+		NodoDoble<T>* aux = this->cabeza;
+		while (aux != nullptr && aux->getDato() != dato)
+		{
+			aux = aux->getSiguiente();
+		}
+		if (aux == nullptr)
+		{
+			throw "Dato no encontrado";
+		}
+		else if (aux == this->cabeza)
+		{
+			eliminarInicio();
+		}
+		else if (aux == this->cola)
+		{
+			eliminarFinal();
+		}
+		else
+		{
+			aux->getAnterior()->setSiguiente(aux->getSiguiente());
+			aux->getSiguiente()->setAnterior(aux->getAnterior());
+			this->tamanio--;
+		}
+	}
+}
+
+template <typename T>
 void ListaDoble<T>::mostrar()
 {
 	NodoDoble<T>* aux = this->cabeza;
@@ -230,6 +268,34 @@ void ListaDoble<T>::ordenarAscendente()
 		}
 		aux = aux->getSiguiente();
 	}
+}
+
+template <typename T>
+bool ListaDoble<T>::buscar(T dato)
+{
+	NodoDoble<T>* aux = this->cabeza;
+	while (aux != nullptr)
+	{
+		if (aux->getDato() == dato)
+		{
+			return true;
+		}
+		aux = aux->getSiguiente();
+	}
+	return false;
+}
+
+template <typename T>
+void ListaDoble<T>::vaciar() {
+	NodoDoble<T>* actual = cabeza;
+	while (actual != nullptr) {
+		NodoDoble<T>* siguiente = actual->getSiguiente();
+		delete actual;
+		actual = siguiente;
+	}
+	cabeza = nullptr;
+	cola = nullptr;
+	tamanio = 0;
 }
 
 
