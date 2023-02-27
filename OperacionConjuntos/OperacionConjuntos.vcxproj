@@ -150,8 +150,6 @@
     <ClCompile Include="VennDiagram.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DoubleList.h" />
-    <ClInclude Include="DoubleNode.h" />
     <ClInclude Include="GraphSet.h" />
     <ClInclude Include="Operation.h" />
     <ClInclude Include="Set.h" />
