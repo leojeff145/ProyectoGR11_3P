@@ -1,0 +1,2913 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\info 
+{\title {\comment ConjuntoOperaciones  {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+1 \par
+}}ConjuntoOperaciones}
+{\comment Generado por doxygen 1.9.5.}
+{\creatim \yr2023\mo2\dy27\hr6\min54\sec6}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt ConjuntoOperaciones}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Versi\'F3n 1\par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt Lunes, 27 de Febrero de 2023 }}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Tabla de contenidos\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice de estructura de datos\par \pard\plain 
+{\tc \v \'CDndice de estructura de datos}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Estructura de datos\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Lista de estructuras con una breve descripci\'F3n:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b DoubleList< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b DoubleNode< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b GraphSet} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Operation} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Set} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b SetsApp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Validacion} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b VennDiagram} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Indice de archivos\par \pard\plain 
+{\tc \v Indice de archivos}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de archivos\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Lista de todos los archivos con descripciones breves:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b DoubleList.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b DoubleNode.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b GraphSet.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b main.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b Operation.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b Operation.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b Set.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b Set.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b SetsApp.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b SetsApp.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b Validacion.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b VennDiagram.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b VennDiagram.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Documentaci\'F3n de las estructuras de datos{\tc \v Documentaci\'F3n de las estructuras de datos}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia de la plantilla de la Clase DoubleList< T >\par \pard\plain 
+{\tc\tcl2 \v DoubleList< T >}
+{\xe \v DoubleList< T >}
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+\par
+{
+{\f2 #include <DoubleList.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b DoubleList} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~DoubleList} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b _insert} (T data)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b _erase} (T data)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b print} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b printReverse} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b _clear} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b _size} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n del constructor y destructor\par
+\pard\plain 
+{\xe \v DoubleList\:DoubleList< T >}
+{\xe \v DoubleList< T >\:DoubleList}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > {\b DoubleList}< T >{\b ::DoubleList}}}
+\par
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v ~DoubleList\:DoubleList< T >}
+{\xe \v DoubleList< T >\:~DoubleList}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > {\b DoubleList}< T >::~{\b DoubleList}}}
+\par
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de las funciones miembro\par
+\pard\plain 
+{\xe \v _clear\:DoubleList< T >}
+{\xe \v DoubleList< T >\:_clear}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > void {\b DoubleList}< T >::_clear}}
+\par
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v _erase\:DoubleList< T >}
+{\xe \v DoubleList< T >\:_erase}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > void {\b DoubleList}< T >::_erase (T  {\i data})}}
+\par
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v _insert\:DoubleList< T >}
+{\xe \v DoubleList< T >\:_insert}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > void {\b DoubleList}< T >::_insert (T  {\i data})}}
+\par
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v _size\:DoubleList< T >}
+{\xe \v DoubleList< T >\:_size}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > int {\b DoubleList}< T >::_size}}
+\par
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v print\:DoubleList< T >}
+{\xe \v DoubleList< T >\:print}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > void {\b DoubleList}< T >::print}}
+\par
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v printReverse\:DoubleList< T >}
+{\xe \v DoubleList< T >\:printReverse}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > void {\b DoubleList}< T >::printReverse}}
+\par
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+La documentaci\'F3n para esta clase fue generada a partir del siguiente fichero:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b DoubleList.h}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia de la plantilla de la Clase DoubleNode< T >\par \pard\plain 
+{\tc\tcl2 \v DoubleNode< T >}
+{\xe \v DoubleNode< T >}
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+\par
+{
+{\f2 #include <DoubleNode.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b DoubleNode} (T data, {\b DoubleNode}< T > *next=nullptr, {\b DoubleNode}< T > *prev=nullptr)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+T {\b getData} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b DoubleNode}< T > * {\b getNext} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b DoubleNode}< T > * {\b getPrev} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setNext} ({\b DoubleNode}< T > *next)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setPrev} ({\b DoubleNode}< T > *prev)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n del constructor y destructor\par
+\pard\plain 
+{\xe \v DoubleNode\:DoubleNode< T >}
+{\xe \v DoubleNode< T >\:DoubleNode}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > {\b DoubleNode}< T >{\b ::DoubleNode} (T  {\i data}, {\b DoubleNode}< T > *  {\i next} = {\f2 nullptr}, {\b DoubleNode}< T > *  {\i prev} = {\f2 nullptr})}}
+\par
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de las funciones miembro\par
+\pard\plain 
+{\xe \v getData\:DoubleNode< T >}
+{\xe \v DoubleNode< T >\:getData}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > T {\b DoubleNode}< T >::getData}}
+\par
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v getNext\:DoubleNode< T >}
+{\xe \v DoubleNode< T >\:getNext}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > {\b DoubleNode}< T > * {\b DoubleNode}< T >::getNext}}
+\par
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v getPrev\:DoubleNode< T >}
+{\xe \v DoubleNode< T >\:getPrev}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > {\b DoubleNode}< T > * {\b DoubleNode}< T >::getPrev}}
+\par
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v setNext\:DoubleNode< T >}
+{\xe \v DoubleNode< T >\:setNext}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > void {\b DoubleNode}< T >::setNext ({\b DoubleNode}< T > *  {\i next})}}
+\par
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v setPrev\:DoubleNode< T >}
+{\xe \v DoubleNode< T >\:setPrev}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > void {\b DoubleNode}< T >::setPrev ({\b DoubleNode}< T > *  {\i prev})}}
+\par
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+La documentaci\'F3n para esta clase fue generada a partir del siguiente fichero:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b DoubleNode.h}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia de la Clase GraphSet\par \pard\plain 
+{\tc\tcl2 \v GraphSet}
+{\xe \v GraphSet}
+{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+\par
+{
+{\f2 #include <GraphSet.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b GraphSet} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b drawUnion} ({\b Operation} operation, {\b VennDiagram} vd)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b drawIntersection} ({\b Operation} operation, {\b VennDiagram} vd)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b drawDifference} ({\b Operation} operation, {\b VennDiagram} vd, bool isLeft=true)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b drawSymmetricDifference} ({\b Operation} operation, {\b VennDiagram} vd)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b drawComplement} ({\b Operation} operation, {\b VennDiagram} vd, bool isLeft)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos est\'E1ticos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b drawBase} ({\b Operation} operation, {\b VennDiagram} vd)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b drawPlane} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b drawBigO_n} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b drawBigO_nlogn} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b drawBigO_2n} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n del constructor y destructor\par
+\pard\plain 
+{\xe \v GraphSet\:GraphSet}
+{\xe \v GraphSet\:GraphSet}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+GraphSet::GraphSet (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de las funciones miembro\par
+\pard\plain 
+{\xe \v drawBase\:GraphSet}
+{\xe \v GraphSet\:drawBase}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void GraphSet::drawBase ({\b Operation}  {\i operation}, {\b VennDiagram}  {\i vd}){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v drawBigO_2n\:GraphSet}
+{\xe \v GraphSet\:drawBigO_2n}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void GraphSet::drawBigO_2n (){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v drawBigO_n\:GraphSet}
+{\xe \v GraphSet\:drawBigO_n}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void GraphSet::drawBigO_n (){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v drawBigO_nlogn\:GraphSet}
+{\xe \v GraphSet\:drawBigO_nlogn}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void GraphSet::drawBigO_nlogn (){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v drawComplement\:GraphSet}
+{\xe \v GraphSet\:drawComplement}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void GraphSet::drawComplement ({\b Operation}  {\i operation}, {\b VennDiagram}  {\i vd}, bool  {\i isLeft}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v drawDifference\:GraphSet}
+{\xe \v GraphSet\:drawDifference}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void GraphSet::drawDifference ({\b Operation}  {\i operation}, {\b VennDiagram}  {\i vd}, bool  {\i isLeft} = {\f2 true}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v drawIntersection\:GraphSet}
+{\xe \v GraphSet\:drawIntersection}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void GraphSet::drawIntersection ({\b Operation}  {\i operation}, {\b VennDiagram}  {\i vd}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v drawPlane\:GraphSet}
+{\xe \v GraphSet\:drawPlane}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void GraphSet::drawPlane (){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v drawSymmetricDifference\:GraphSet}
+{\xe \v GraphSet\:drawSymmetricDifference}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void GraphSet::drawSymmetricDifference ({\b Operation}  {\i operation}, {\b VennDiagram}  {\i vd}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v drawUnion\:GraphSet}
+{\xe \v GraphSet\:drawUnion}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void GraphSet::drawUnion ({\b Operation}  {\i operation}, {\b VennDiagram}  {\i vd}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+La documentaci\'F3n para esta clase fue generada a partir del siguiente fichero:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b GraphSet.h}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia de la Clase Operation\par \pard\plain 
+{\tc\tcl2 \v Operation}
+{\xe \v Operation}
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+\par
+{
+{\f2 #include <Operation.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Operation} ({\b Set} a, {\b Set} b)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Set} {\b getA} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Set} {\b getB} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Set} {\b doUnion} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Set} {\b doIntersection} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Set} {\b doDifference} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Set} {\b doSymmetricDifference} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Set} {\b doComplement} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n del constructor y destructor\par
+\pard\plain 
+{\xe \v Operation\:Operation}
+{\xe \v Operation\:Operation}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Operation::Operation ({\b Set}  {\i a}, {\b Set}  {\i b})}}
+\par
+{\bkmkstart AAAAAAAACE}
+{\bkmkend AAAAAAAACE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de las funciones miembro\par
+\pard\plain 
+{\xe \v doComplement\:Operation}
+{\xe \v Operation\:doComplement}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Set} Operation::doComplement ()}}
+\par
+{\bkmkstart AAAAAAAACF}
+{\bkmkend AAAAAAAACF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v doDifference\:Operation}
+{\xe \v Operation\:doDifference}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Set} Operation::doDifference ()}}
+\par
+{\bkmkstart AAAAAAAACG}
+{\bkmkend AAAAAAAACG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v doIntersection\:Operation}
+{\xe \v Operation\:doIntersection}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Set} Operation::doIntersection ()}}
+\par
+{\bkmkstart AAAAAAAACH}
+{\bkmkend AAAAAAAACH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v doSymmetricDifference\:Operation}
+{\xe \v Operation\:doSymmetricDifference}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Set} Operation::doSymmetricDifference ()}}
+\par
+{\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v doUnion\:Operation}
+{\xe \v Operation\:doUnion}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Set} Operation::doUnion ()}}
+\par
+{\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v getA\:Operation}
+{\xe \v Operation\:getA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Set} Operation::getA ()}}
+\par
+{\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v getB\:Operation}
+{\xe \v Operation\:getB}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Set} Operation::getB ()}}
+\par
+{\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+La documentaci\'F3n para esta clase fue generada a partir de los siguientes ficheros:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b Operation.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b Operation.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia de la Clase Set\par \pard\plain 
+{\tc\tcl2 \v Set}
+{\xe \v Set}
+{\bkmkstart AAAAAAAACM}
+{\bkmkend AAAAAAAACM}
+\par
+{
+{\f2 #include <Set.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Set} ()=default\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Set} (std::set< int > data, std::string label="")\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Set} (std::string label)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b insert} (int n)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::set< int > & {\b getData} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::vector< int > {\b getAsVector} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::string {\b getLabel} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b size} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n del constructor y destructor\par
+\pard\plain 
+{\xe \v Set\:Set}
+{\xe \v Set\:Set}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Set::Set (){\f2 [default]}}}
+\par
+{\bkmkstart AAAAAAAACN}
+{\bkmkend AAAAAAAACN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v Set\:Set}
+{\xe \v Set\:Set}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Set::Set (std::set< int >  {\i data}, std::string  {\i label} = {\f2 ""})}}
+\par
+{\bkmkstart AAAAAAAACO}
+{\bkmkend AAAAAAAACO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v Set\:Set}
+{\xe \v Set\:Set}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Set::Set (std::string  {\i label})}}
+\par
+{\bkmkstart AAAAAAAACP}
+{\bkmkend AAAAAAAACP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de las funciones miembro\par
+\pard\plain 
+{\xe \v getAsVector\:Set}
+{\xe \v Set\:getAsVector}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::vector< int > Set::getAsVector ()}}
+\par
+{\bkmkstart AAAAAAAACQ}
+{\bkmkend AAAAAAAACQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v getData\:Set}
+{\xe \v Set\:getData}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::set< int > & Set::getData ()}}
+\par
+{\bkmkstart AAAAAAAACR}
+{\bkmkend AAAAAAAACR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v getLabel\:Set}
+{\xe \v Set\:getLabel}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::string Set::getLabel ()}}
+\par
+{\bkmkstart AAAAAAAACS}
+{\bkmkend AAAAAAAACS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v insert\:Set}
+{\xe \v Set\:insert}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Set::insert (int  {\i n})}}
+\par
+{\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v size\:Set}
+{\xe \v Set\:size}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Set::size ()}}
+\par
+{\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+La documentaci\'F3n para esta clase fue generada a partir de los siguientes ficheros:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b Set.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b Set.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia de la Clase SetsApp\par \pard\plain 
+{\tc\tcl2 \v SetsApp}
+{\xe \v SetsApp}
+{\bkmkstart AAAAAAAACV}
+{\bkmkend AAAAAAAACV}
+\par
+{
+{\f2 #include <SetsApp.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SetsApp} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b init} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b runMenu} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n del constructor y destructor\par
+\pard\plain 
+{\xe \v SetsApp\:SetsApp}
+{\xe \v SetsApp\:SetsApp}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+SetsApp::SetsApp ()}}
+\par
+{\bkmkstart AAAAAAAACW}
+{\bkmkend AAAAAAAACW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de las funciones miembro\par
+\pard\plain 
+{\xe \v init\:SetsApp}
+{\xe \v SetsApp\:init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void SetsApp::init ()}}
+\par
+{\bkmkstart AAAAAAAACX}
+{\bkmkend AAAAAAAACX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v runMenu\:SetsApp}
+{\xe \v SetsApp\:runMenu}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void SetsApp::runMenu ()}}
+\par
+{\bkmkstart AAAAAAAACY}
+{\bkmkend AAAAAAAACY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+La documentaci\'F3n para esta clase fue generada a partir de los siguientes ficheros:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b SetsApp.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b SetsApp.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia de la Clase Validacion\par \pard\plain 
+{\tc\tcl2 \v Validacion}
+{\xe \v Validacion}
+{\bkmkstart AAAAAAAACZ}
+{\bkmkend AAAAAAAACZ}
+\par
+{
+{\f2 #include <Validacion.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos est\'E1ticos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b limpiar_consola} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static std::string {\b leer_cadena} (const std::string etiqueta, bool permitir_vacio=false)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static int {\b leer_cadena_regex} (const std::string etiqueta, std::string regex)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static int {\b leer_entero} (std::string etiqueta, int minimo=INT_MIN, int maximo=INT_MAX)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static bool {\b cadenas_iguales} (std::string a, std::string b)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static float {\b leer_flotante} (std::string etiqueta, float minimo=DBL_MIN, float maximo=DBL_MAX)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static bool {\b cedula_valida} (const std::string cedula)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static std::string {\b trim_cadena} (std::string cadena)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static std::string {\b cadena_minusculas} (std::string cadena)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static bool {\b existe_archivo} (std::string nombre_archivo)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static int {\b generar_aleatorio} (int minimo=INT_MIN, int maximo=INT_MAX)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static std::string {\b decimal_fixed} (float valor, int precision=2)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static int {\b ingresar_DatosEnteros} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static float {\b ingresar_DatosReales} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de las funciones miembro\par
+\pard\plain 
+{\xe \v cadena_minusculas\:Validacion}
+{\xe \v Validacion\:cadena_minusculas}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static std::string Validacion::cadena_minusculas (std::string  {\i cadena}){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADA}
+{\bkmkend AAAAAAAADA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v cadenas_iguales\:Validacion}
+{\xe \v Validacion\:cadenas_iguales}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static bool Validacion::cadenas_iguales (std::string  {\i a}, std::string  {\i b}){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADB}
+{\bkmkend AAAAAAAADB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v cedula_valida\:Validacion}
+{\xe \v Validacion\:cedula_valida}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static bool Validacion::cedula_valida (const std::string  {\i cedula}){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADC}
+{\bkmkend AAAAAAAADC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v decimal_fixed\:Validacion}
+{\xe \v Validacion\:decimal_fixed}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static std::string Validacion::decimal_fixed (float  {\i valor}, int  {\i precision} = {\f2 2}){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADD}
+{\bkmkend AAAAAAAADD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v existe_archivo\:Validacion}
+{\xe \v Validacion\:existe_archivo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static bool Validacion::existe_archivo (std::string  {\i nombre_archivo}){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADE}
+{\bkmkend AAAAAAAADE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v generar_aleatorio\:Validacion}
+{\xe \v Validacion\:generar_aleatorio}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static int Validacion::generar_aleatorio (int  {\i minimo} = {\f2 INT_MIN}, int  {\i maximo} = {\f2 INT_MAX}){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADF}
+{\bkmkend AAAAAAAADF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v ingresar_DatosEnteros\:Validacion}
+{\xe \v Validacion\:ingresar_DatosEnteros}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static int Validacion::ingresar_DatosEnteros (){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADG}
+{\bkmkend AAAAAAAADG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v ingresar_DatosReales\:Validacion}
+{\xe \v Validacion\:ingresar_DatosReales}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static float Validacion::ingresar_DatosReales (){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADH}
+{\bkmkend AAAAAAAADH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v leer_cadena\:Validacion}
+{\xe \v Validacion\:leer_cadena}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static std::string Validacion::leer_cadena (const std::string  {\i etiqueta}, bool  {\i permitir_vacio} = {\f2 false}){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADI}
+{\bkmkend AAAAAAAADI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v leer_cadena_regex\:Validacion}
+{\xe \v Validacion\:leer_cadena_regex}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static int Validacion::leer_cadena_regex (const std::string  {\i etiqueta}, std::string  {\i regex}){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADJ}
+{\bkmkend AAAAAAAADJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v leer_entero\:Validacion}
+{\xe \v Validacion\:leer_entero}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static int Validacion::leer_entero (std::string  {\i etiqueta}, int  {\i minimo} = {\f2 INT_MIN}, int  {\i maximo} = {\f2 INT_MAX}){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADK}
+{\bkmkend AAAAAAAADK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v leer_flotante\:Validacion}
+{\xe \v Validacion\:leer_flotante}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static float Validacion::leer_flotante (std::string  {\i etiqueta}, float  {\i minimo} = {\f2 DBL_MIN}, float  {\i maximo} = {\f2 DBL_MAX}){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADL}
+{\bkmkend AAAAAAAADL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v limpiar_consola\:Validacion}
+{\xe \v Validacion\:limpiar_consola}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void Validacion::limpiar_consola (){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADM}
+{\bkmkend AAAAAAAADM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v trim_cadena\:Validacion}
+{\xe \v Validacion\:trim_cadena}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static std::string Validacion::trim_cadena (std::string  {\i cadena}){\f2 [inline]}, {\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADN}
+{\bkmkend AAAAAAAADN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+La documentaci\'F3n para esta clase fue generada a partir del siguiente fichero:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b Validacion.h}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia de la Clase VennDiagram\par \pard\plain 
+{\tc\tcl2 \v VennDiagram}
+{\xe \v VennDiagram}
+{\bkmkstart AAAAAAAADO}
+{\bkmkend AAAAAAAADO}
+\par
+{
+{\f2 #include <VennDiagram.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b VennDiagram} (std::set< int > a, std::set< int > b)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::vector< int > {\b getLeft} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::vector< int > {\b getRight} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::vector< int > {\b getIntersection} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n del constructor y destructor\par
+\pard\plain 
+{\xe \v VennDiagram\:VennDiagram}
+{\xe \v VennDiagram\:VennDiagram}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+VennDiagram::VennDiagram (std::set< int >  {\i a}, std::set< int >  {\i b})}}
+\par
+{\bkmkstart AAAAAAAADP}
+{\bkmkend AAAAAAAADP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de las funciones miembro\par
+\pard\plain 
+{\xe \v getIntersection\:VennDiagram}
+{\xe \v VennDiagram\:getIntersection}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::vector< int > VennDiagram::getIntersection ()}}
+\par
+{\bkmkstart AAAAAAAADQ}
+{\bkmkend AAAAAAAADQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v getLeft\:VennDiagram}
+{\xe \v VennDiagram\:getLeft}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::vector< int > VennDiagram::getLeft ()}}
+\par
+{\bkmkstart AAAAAAAADR}
+{\bkmkend AAAAAAAADR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v getRight\:VennDiagram}
+{\xe \v VennDiagram\:getRight}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::vector< int > VennDiagram::getRight ()}}
+\par
+{\bkmkstart AAAAAAAADS}
+{\bkmkend AAAAAAAADS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+La documentaci\'F3n para esta clase fue generada a partir de los siguientes ficheros:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b VennDiagram.h}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/{\b VennDiagram.cpp}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Documentaci\'F3n de archivos{\tc \v Documentaci\'F3n de archivos}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/DoubleList.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/DoubleList.h}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/DoubleList.h}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "DoubleNode.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Estructuras de datos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b DoubleList< T >}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+DoubleList.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/DoubleList.h}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/DoubleList.h}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+Ir a la documentaci\'F3n de este archivo.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #pragma once}\par
+2 {\cf21 #include "DoubleNode.h"}\par
+3 \par
+4 {\cf17 template} <{\cf17 typename} T>\par
+5 {\cf17 class }DoubleList \{\par
+6 {\cf17 public}:\par
+7     DoubleList();\par
+8     ~DoubleList();\par
+9     {\cf18 void} _insert(T data);\par
+10     {\cf18 void} _erase(T data);\par
+11     {\cf18 void} print();\par
+12     {\cf18 void} printReverse();\par
+13     {\cf18 void} _clear();  \par
+14     {\cf18 int} _size();\par
+15 \par
+16 \};\par
+17 \par
+18 {\cf17 template} <{\cf17 typename} T>\par
+19 DoubleList<T>::DoubleList() \{\par
+20     _head = {\cf17 nullptr};\par
+21     _tail = {\cf17 nullptr};\par
+22     _size = 0;\par
+23 \}\par
+24 \par
+25 {\cf17 template} <{\cf17 typename} T>\par
+26 DoubleList<T>::~DoubleList() \{\par
+27     clear();\par
+28 \}\par
+29 \par
+30 {\cf17 template} <{\cf17 typename} T>\par
+31 {\cf18 void} DoubleList<T>::_insert(T data) \{\par
+32     {\cf19 if} (_head == {\cf17 nullptr}) \{\par
+33         _head = {\cf17 new} DoubleNode<T>(data);\par
+34         _tail = _head;\par
+35     \}\par
+36     {\cf19 else} \{\par
+37         _tail->setNext({\cf17 new} DoubleNode<T>(data));\par
+38         _tail->getNext()->setPrev(_tail);\par
+39         _tail = _tail->getNext();\par
+40     \}\par
+41     _size++;\par
+42 \}\par
+43 \par
+44 {\cf17 template} <{\cf17 typename} T>\par
+45 {\cf18 void} DoubleList<T>::_erase(T data) \{\par
+46     {\cf19 if} (_head == {\cf17 nullptr}) \{\par
+47         {\cf19 return};\par
+48     \}\par
+49     {\cf19 else} {\cf19 if} (_head->getData() == data) \{\par
+50         DoubleNode<T>* temp = _head;\par
+51         _head = _head->getNext();\par
+52         {\cf17 delete} temp;\par
+53         _size--;\par
+54     \}\par
+55     {\cf19 else} \{\par
+56         DoubleNode<T>* temp = _head;\par
+57         {\cf19 while} (temp->getNext() != {\cf17 nullptr} && temp->getNext()->getData() != data) \{\par
+58             temp = temp->getNext();\par
+59         \}\par
+60         {\cf19 if} (temp->getNext() != {\cf17 nullptr}) \{\par
+61             DoubleNode<T>* temp2 = temp->getNext();\par
+62             temp->setNext(temp->getNext()->getNext());\par
+63             {\cf17 delete} temp2;\par
+64             _size--;\par
+65         \}\par
+66     \}\par
+67 \}\par
+68 \par
+69 {\cf17 template} <{\cf17 typename} T>\par
+70 {\cf18 void} DoubleList<T>::print() \{\par
+71     DoubleNode<T>* temp = _head;\par
+72     {\cf19 while} (temp != {\cf17 nullptr}) \{\par
+73         std::cout << temp->getData() << {\cf22 " "};\par
+74         temp = temp->getNext();\par
+75     \}\par
+76     std::cout << std::endl;\par
+77 \}\par
+78 \par
+79 {\cf17 template} <{\cf17 typename} T>\par
+80 {\cf18 void} DoubleList<T>::printReverse() \{\par
+81     DoubleNode<T>* temp = _tail;\par
+82     {\cf19 while} (temp != {\cf17 nullptr}) \{\par
+83         std::cout << temp->getData() << {\cf22 " "};\par
+84         temp = temp->getPrev();\par
+85     \}\par
+86     std::cout << std::endl;\par
+87 \}\par
+88 \par
+89 {\cf17 template} <{\cf17 typename} T>\par
+90 {\cf18 void} DoubleList<T>::_clear() \{\par
+91     {\cf19 while} (_head != {\cf17 nullptr}) \{\par
+92         DoubleNode<T>* temp = _head;\par
+93         _head = _head->getNext();\par
+94         {\cf17 delete} temp;\par
+95     \}\par
+96     _size = 0;\par
+97 \}\par
+98 \par
+99 {\cf17 template} <{\cf17 typename} T>\par
+100 {\cf18 int} DoubleList<T>::_size() \{\par
+101     {\cf19 return} _size;\par
+102 \}\par
+103 \par
+104 \par
+105 \par
+106 \par
+107 \par
+108 \par
+109 \par
+110 \par
+111 \par
+112 \par
+113 \par
+114 \par
+115 \par
+116 \par
+117 \par
+118 \par
+119 \par
+120 \par
+121 \par
+122 \par
+123 \par
+124 \par
+125 \par
+126 \par
+127 \par
+128 \par
+129 \par
+130 \par
+131 \par
+132 \par
+133 \par
+134 \par
+135 \par
+136 \par
+137 \par
+138 \par
+139 \par
+140 \par
+141 \par
+142 \par
+143 \par
+144 \par
+145 \par
+146 \par
+147 \par
+148 \par
+149 \par
+150 \par
+151 \par
+152 \par
+153 \par
+154 \par
+155 \par
+156 \par
+157 \par
+158 \par
+159 \par
+160 \par
+161 \par
+162 \par
+163 \par
+164 \par
+165 \par
+166 \par
+167 \par
+168     \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/DoubleNode.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/DoubleNode.h}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/DoubleNode.h}
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Estructuras de datos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b DoubleNode< T >}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+DoubleNode.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/DoubleNode.h}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/DoubleNode.h}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+Ir a la documentaci\'F3n de este archivo.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #pragma once}\par
+2 \par
+3 {\cf17 template} <{\cf17 typename} T>\par
+4 {\cf17 class }DoubleNode \{  \par
+5     {\cf17 public}:\par
+6     DoubleNode(T data, DoubleNode<T>* next = {\cf17 nullptr}, DoubleNode<T>* prev = {\cf17 nullptr});\par
+7     T getData();\par
+8     DoubleNode<T>* getNext();\par
+9     DoubleNode<T>* getPrev();\par
+10     {\cf18 void} setNext(DoubleNode<T>* next);\par
+11     {\cf18 void} setPrev(DoubleNode<T>* prev);\par
+12 \par
+13     {\cf17 private}:\par
+14         T _data;\par
+15         DoubleNode<T>* _next;\par
+16         DoubleNode<T>* _prev;\par
+17 \};\par
+18 \par
+19 {\cf17 template} <{\cf17 typename} T>\par
+20 DoubleNode<T>::DoubleNode(T data, DoubleNode<T>* next, DoubleNode<T>* prev) \{\par
+21     _data = data;\par
+22     _next = next;\par
+23     _prev = prev;\par
+24 \}\par
+25 \par
+26 {\cf17 template} <{\cf17 typename} T>\par
+27 T DoubleNode<T>::getData() \{\par
+28     {\cf19 return} _data;\par
+29 \}\par
+30 \par
+31 {\cf17 template} <{\cf17 typename} T>\par
+32 DoubleNode<T>* DoubleNode<T>::getNext() \{\par
+33     {\cf19 return} _next;\par
+34 \}\par
+35 \par
+36 {\cf17 template} <{\cf17 typename} T>\par
+37 DoubleNode<T>* DoubleNode<T>::getPrev() \{\par
+38     {\cf19 return} _prev;\par
+39 \}\par
+40 \par
+41 {\cf17 template} <{\cf17 typename} T>\par
+42 {\cf18 void} DoubleNode<T>::setNext(DoubleNode<T>* next) \{\par
+43     _next = next;\par
+44 \}\par
+45 \par
+46 {\cf17 template} <{\cf17 typename} T>\par
+47 {\cf18 void} DoubleNode<T>::setPrev(DoubleNode<T>* prev) \{\par
+48     _prev = prev;\par
+49 \}\par
+50 \par
+51 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/GraphSet.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/GraphSet.h}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/GraphSet.h}
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "Operation.h"}\par
+{\f2 #include "VennDiagram.h"}\par
+{\f2 #include <string>}\par
+{\f2 #include <optional>}\par
+{\f2 #include <map>}\par
+{\f2 #include <vector>}\par
+{\f2 #include <tuple>}\par
+{\f2 #include <random>}\par
+{\f2 #include <graphics.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Estructuras de datos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b GraphSet}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+defines\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b BG_COLOR}\~ WHITE\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de los 'defines'\par
+\pard\plain 
+{\xe \v BG_COLOR\:GraphSet.h}
+{\xe \v GraphSet.h\:BG_COLOR}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define BG_COLOR\~ WHITE}}
+\par
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GraphSet.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/GraphSet.h}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/GraphSet.h}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+Ir a la documentaci\'F3n de este archivo.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #pragma once}\par
+2 {\cf21 #include "Operation.h"}\par
+3 {\cf21 #include "VennDiagram.h"}\par
+4 {\cf21 #include <string>}\par
+5 {\cf21 #include <optional>}\par
+6 {\cf21 #include <map>}\par
+7 {\cf21 #include <vector>}\par
+8 {\cf21 #include <tuple>}\par
+9 {\cf21 #include <random>}\par
+10 {\cf21 #include <graphics.h>}\par
+11 \par
+12 {\cf21 #define BG_COLOR WHITE}\par
+13 \par
+14 {\cf17 class }GraphSet \{\par
+15 {\cf17 private}:\par
+16     std::map<std::string, std::vector<std::tuple<int, int>>> _vennPositions;\par
+17 {\cf17 public}:\par
+18 \par
+19     GraphSet() \{\par
+20         std::vector<std::tuple<int, int>> leftPositions = \{\par
+21         \{ 760, 56 \}, \{ 700, 80 \}, \{ 745, 80 \}, \{ 785, 80 \}, \{ 665, 105 \},\par
+22         \{ 715, 105 \}, \{ 765, 105 \}, \{ 650, 130 \}, \{ 700, 130 \}, \{ 750, 130 \},\par
+23         \{ 640, 155 \}, \{ 690, 155 \}, \{ 740, 155 \}, \{ 635, 180 \}, \{ 685, 180 \},\par
+24         \{ 735, 180 \}, \{ 640, 205 \}, \{ 690, 205 \}, \{ 740, 205 \}, \{ 645, 230 \},\par
+25         \{ 695, 230 \}, \{ 745, 230 \}, \{ 655, 255 \}, \{ 705, 255 \}, \{ 745, 255 \},\par
+26         \{ 670, 280 \}, \{ 720, 280 \}, \{ 760, 280 \}, \{ 695, 305 \}, \{ 745, 305 \}\par
+27         \};\par
+28 \par
+29         std::vector<std::tuple<int, int>> rightPositions = \{\par
+30             \{ 895, 80 \}, \{ 940, 80 \}, \{ 985, 80 \}, \{ 910, 105 \}, \{ 955, 105 \},\par
+31             \{ 1005, 105 \}, \{ 923, 130 \}, \{ 970, 130 \}, \{ 1020, 130 \}, \{ 935, 155 \},\par
+32             \{ 985, 155 \}, \{ 1035, 155 \}, \{ 935, 180 \}, \{ 990, 180 \}, \{ 1040, 180 \},\par
+33             \{ 935, 205 \}, \{ 985, 205 \}, \{ 1035, 205 \}, \{ 930, 230 \}, \{ 980, 230 \},\par
+34             \{ 1030, 230 \}, \{ 925, 255 \}, \{ 975, 255 \}, \{ 1025, 255 \}, \{ 910, 280 \},\par
+35             \{ 960, 280 \}, \{ 1010, 280 \}, \{ 885, 310 \}, \{ 935, 305 \}, \{ 981, 305 \}\par
+36         \};\par
+37 \par
+38         std::vector<std::tuple<int, int>> centerPositions = \{\par
+39             \{ 843, 90 \}, \{ 813, 110 \}, \{ 863, 110 \}, \{ 798, 130 \}, \{ 838, 130 \},\par
+40             \{ 878, 130 \}, \{ 792, 150 \}, \{ 838, 150 \}, \{ 888, 150 \}, \{ 788, 170 \},\par
+41             \{ 838, 170 \}, \{ 888, 170 \}, \{ 788, 190 \}, \{ 838, 190 \}, \{ 888, 190 \},\par
+42             \{ 788, 210 \}, \{ 838, 210 \}, \{ 888, 210 \}, \{ 798, 230 \}, \{ 838, 230 \},\par
+43             \{ 878, 230 \}, \{ 803, 250 \}, \{ 838, 250 \}, \{ 873, 250 \}, \{ 813, 270 \},\par
+44             \{ 863, 270 \}, \{ 843, 290 \}\par
+45         \};\par
+46 \par
+47         {\cf20 // vamos a desordenar los vectores}\par
+48         std::random_device rd;\par
+49         std::mt19937 g(rd());\par
+50 \par
+51         std::shuffle(leftPositions.begin(), leftPositions.end(), g);\par
+52         std::shuffle(rightPositions.begin(), rightPositions.end(), g);\par
+53         std::shuffle(centerPositions.begin(), centerPositions.end(), g);\par
+54 \par
+55         _vennPositions.insert(\{ {\cf22 "left"}, leftPositions \});\par
+56         _vennPositions.insert(\{ {\cf22 "right"}, rightPositions \});\par
+57         _vennPositions.insert(\{ {\cf22 "center"}, centerPositions \});\par
+58     \}\par
+59 \par
+60     {\cf17 static} {\cf18 void} drawBase(Operation operation, VennDiagram vd) \{\par
+61         setbkcolor(BG_COLOR);\par
+62         cleardevice();\par
+63 \par
+64         setlinestyle(SOLID_LINE, 0, 1);\par
+65 \par
+66         {\cf20 // MARCO}\par
+67         setcolor(BLACK);\par
+68         rectangle(610, 30, 610 + 500, 30 + 360);\par
+69         setfillstyle(SOLID_FILL, COLOR(245, 245, 245));\par
+70         floodfill(612, 32, BLACK);\par
+71 \par
+72         {\cf20 // CONJUNTO A}\par
+73         setcolor(BLACK);\par
+74         circle(780, 200, 150);\par
+75         settextstyle(0, 0, 2);\par
+76         setcolor(BLACK);\par
+77         setbkcolor(COLOR(245, 245, 245));\par
+78         outtextxy(680, 340, ({\cf18 char}*){\cf22 "A"});\par
+79 \par
+80         {\cf20 // CONJUNTO B}\par
+81         setcolor(BLACK);\par
+82         circle(930, 200, 150);\par
+83         settextstyle(0, 0, 2);\par
+84         setcolor(BLACK);\par
+85         setbkcolor(COLOR(245, 245, 245));\par
+86         outtextxy(1020, 340, ({\cf18 char}*){\cf22 "B"});\par
+87 \par
+88         setfillstyle(SOLID_FILL, WHITE);\par
+89         floodfill(700, 200, BLACK);\par
+90         floodfill(800, 200, BLACK);\par
+91         floodfill(1000, 200, BLACK);\par
+92 \par
+93         {\cf20 //Titulo Diagrama}\par
+94         settextstyle(0, 0, 2);\par
+95         setcolor(BLACK);\par
+96         setbkcolor(BG_COLOR);\par
+97         outtextxy(650, 10, ({\cf18 char}*){\cf22 "*****DIAGRAMA DE VENN*****"});\par
+98 \par
+99         {\cf20 //Titulo Operacion}\par
+100         settextstyle(0, 0, 2);\par
+101         setcolor(BLACK);\par
+102         setbkcolor(BG_COLOR);\par
+103         outtextxy(30, 275, ({\cf18 char}*){\cf22 "------OPERACION------"});\par
+104 \par
+105         {\cf20 //imagen}\par
+106         setcolor(BLACK);\par
+107         setbkcolor(BG_COLOR);\par
+108         readimagefile({\cf22 "logo.jpg"}, 15, 15, 600, 250);\par
+109 \par
+110         {\cf20 // grafica y datos de los conjuntos}\par
+111         std::string setAValues = {\cf22 "A = \{"};\par
+112         std::string setBValues = {\cf22 "B = \{"};\par
+113 \par
+114         {\cf19 for} ({\cf18 int} i = 0; i < vd.getLeft().size(); i++) \{\par
+115             {\cf18 int} n = vd.getLeft().at(i);\par
+116             setAValues += std::to_string(n);\par
+117 \par
+118             {\cf19 if} (i < vd.getLeft().size() - 1) \{\par
+119                 setAValues += {\cf22 ", "};\par
+120             \}\par
+121         \}\par
+122 \par
+123         {\cf19 for} ({\cf18 int} i = 0; i < vd.getRight().size(); i++) \{\par
+124             {\cf18 int} n = vd.getRight().at(i);\par
+125             setBValues += std::to_string(n);\par
+126 \par
+127             {\cf19 if} (i < vd.getRight().size() - 1) \{\par
+128                 setBValues += {\cf22 ", "};\par
+129             \}\par
+130         \}\par
+131 \par
+132         setAValues += {\cf22 "\}"};\par
+133         setBValues += {\cf22 "\}"};\par
+134 \par
+135         setcolor(BLACK);\par
+136         setbkcolor(BG_COLOR);\par
+137         settextstyle(3, 0, 1);\par
+138         outtextxy(50, 300, ({\cf18 char}*)setAValues.c_str());\par
+139         outtextxy(50, 320, ({\cf18 char}*)setBValues.c_str());      \par
+140     \}\par
+141 \par
+142      {\cf18 void} drawUnion(Operation operation, VennDiagram vd) \{\par
+143          drawBase(operation, vd);\par
+144          setfillstyle(SOLID_FILL, COLOR(173, 222, 255));\par
+145          floodfill(700, 200, BLACK);\par
+146          floodfill(800, 200, BLACK);\par
+147          floodfill(1000, 200, BLACK);\par
+148 \par
+149          setcolor(BLACK);\par
+150          settextstyle(4, 0, 1);\par
+151          setbkcolor(COLOR(173, 222, 255));\par
+152 \par
+153          {\cf17 auto} leftPositions = _vennPositions.at({\cf22 "left"});\par
+154          {\cf17 auto} rightPositions = _vennPositions.at({\cf22 "right"});\par
+155          {\cf17 auto} centerPositions = _vennPositions.at({\cf22 "center"});\par
+156 \par
+157          {\cf19 for} ({\cf18 int} i = 0; i < vd.getLeft().size(); i++) \{\par
+158              {\cf19 if} (i >= leftPositions.size()) {\cf19 break};\par
+159 \par
+160              {\cf18 int} x = std::get<0>(leftPositions.at(i));\par
+161              {\cf18 int} y = std::get<1>(leftPositions.at(i));\par
+162              setcolor(BLACK);\par
+163              outtextxy(x, y, ({\cf18 char}*)std::to_string(vd.getLeft().at(i)).c_str());\par
+164          \}\par
+165 \par
+166          {\cf19 for} ({\cf18 int} i = 0; i < vd.getRight().size(); i++) \{\par
+167              {\cf19 if} (i >= rightPositions.size()) {\cf19 break};\par
+168 \par
+169              {\cf18 int} x = std::get<0>(rightPositions.at(i));\par
+170              {\cf18 int} y = std::get<1>(rightPositions.at(i));\par
+171              setcolor(BLACK);\par
+172              outtextxy(x, y, ({\cf18 char}*)std::to_string(vd.getRight().at(i)).c_str());\par
+173          \}\par
+174 \par
+175          {\cf19 for} ({\cf18 int} i = 0; i < vd.getIntersection().size(); i++) \{\par
+176              {\cf19 if} (i >= centerPositions.size()) {\cf19 break};\par
+177 \par
+178              {\cf18 int} x = std::get<0>(centerPositions.at(i));\par
+179              {\cf18 int} y = std::get<1>(centerPositions.at(i));\par
+180              setcolor(BLACK);\par
+181              outtextxy(x, y, ({\cf18 char}*)std::to_string(vd.getIntersection().at(i)).c_str());\par
+182          \}\par
+183 \par
+184          std::string resultSetString = {\cf22 "A U B = \{"};\par
+185          Set setUnion = operation.doUnion();\par
+186          {\cf17 auto} unionValues = setUnion.getAsVector();\par
+187 \par
+188          {\cf19 for} ({\cf18 int} i = 0; i < unionValues.size(); i++) \{\par
+189              {\cf18 int} n = unionValues.at(i);\par
+190              resultSetString += std::to_string(n);\par
+191 \par
+192              {\cf19 if} (i < unionValues.size() - 1) \{\par
+193                  resultSetString += {\cf22 ", "};\par
+194              \}\par
+195          \}\par
+196 \par
+197          resultSetString += {\cf22 "\}"};\par
+198 \par
+199          setcolor(BLACK);\par
+200          settextstyle(3, 0, 1);\par
+201          setbkcolor(BG_COLOR);\par
+202          outtextxy(50, 340, ({\cf18 char}*)resultSetString.c_str());\par
+203 \par
+204 \par
+205          setcolor(BLACK);\par
+206          settextstyle(0, 0, 2);\par
+207          setbkcolor(BG_COLOR);\par
+208          outtextxy(750, 400, ({\cf18 char}*){\cf22 "------UNION------"});        \par
+209      \}\par
+210 \par
+211     {\cf18 void} drawIntersection(Operation operation, VennDiagram vd) \{\par
+212         drawBase(operation, vd);\par
+213         setfillstyle(SOLID_FILL, COLOR(255, 173, 173));\par
+214         floodfill(810, 200, BLACK);\par
+215 \par
+216         setcolor(BLACK);\par
+217         settextstyle(4, 0, 1);\par
+218         setbkcolor(COLOR(255, 173, 173));\par
+219 \par
+220         {\cf17 auto} leftPositions = _vennPositions.at({\cf22 "left"});\par
+221         {\cf17 auto} rightPositions = _vennPositions.at({\cf22 "right"});\par
+222         {\cf17 auto} centerPositions = _vennPositions.at({\cf22 "center"});\par
+223 \par
+224         {\cf19 for} ({\cf18 int} i = 0; i < vd.getLeft().size(); i++) \{\par
+225             {\cf19 if} (i >= leftPositions.size()) {\cf19 break};\par
+226 \par
+227             {\cf18 int} x = std::get<0>(leftPositions.at(i));\par
+228             {\cf18 int} y = std::get<1>(leftPositions.at(i));\par
+229             setcolor(BLACK);\par
+230             setbkcolor(WHITE);\par
+231             outtextxy(x, y, ({\cf18 char}*)std::to_string(vd.getLeft().at(i)).c_str());\par
+232         \}\par
+233 \par
+234         {\cf19 for} ({\cf18 int} i = 0; i < vd.getRight().size(); i++) \{\par
+235             {\cf19 if} (i >= rightPositions.size()) {\cf19 break};\par
+236 \par
+237             {\cf18 int} x = std::get<0>(rightPositions.at(i));\par
+238             {\cf18 int} y = std::get<1>(rightPositions.at(i));\par
+239             setcolor(BLACK);\par
+240             setbkcolor(WHITE);\par
+241             outtextxy(x, y, ({\cf18 char}*)std::to_string(vd.getRight().at(i)).c_str());\par
+242         \}\par
+243 \par
+244         {\cf19 for} ({\cf18 int} i = 0; i < vd.getIntersection().size(); i++) \{\par
+245             {\cf19 if} (i >= centerPositions.size()) {\cf19 break};\par
+246 \par
+247             {\cf18 int} x = std::get<0>(centerPositions.at(i));\par
+248             {\cf18 int} y = std::get<1>(centerPositions.at(i));\par
+249             setcolor(BLACK);\par
+250             setbkcolor(COLOR(255, 173, 173));\par
+251             outtextxy(x, y, ({\cf18 char}*)std::to_string(vd.getIntersection().at(i)).c_str());\par
+252         \}\par
+253 \par
+254         std::string resultSetString = {\cf22 "A (interseccion) B = \{"};\par
+255         Set setUnion = operation.doUnion();\par
+256         {\cf17 auto} unionValues = setUnion.getAsVector();\par
+257 \par
+258         {\cf19 for} ({\cf18 int} i = 0; i < unionValues.size(); i++) \{\par
+259             {\cf18 int} n = unionValues.at(i);\par
+260             resultSetString += std::to_string(n);\par
+261 \par
+262             {\cf19 if} (i < unionValues.size() - 1) \{\par
+263                 resultSetString += {\cf22 ", "};\par
+264             \}\par
+265         \}\par
+266 \par
+267         resultSetString += {\cf22 "\}"};\par
+268 \par
+269         setcolor(BLACK);\par
+270         settextstyle(3, 0, 1);\par
+271         setbkcolor(BG_COLOR);\par
+272         outtextxy(50, 340, ({\cf18 char}*)resultSetString.c_str());\par
+273 \par
+274         setcolor(BLACK);\par
+275         settextstyle(0, 0, 2);\par
+276         setbkcolor(BG_COLOR);\par
+277         outtextxy(750, 400, ({\cf18 char}*){\cf22 "------INTERSECCION------"});     \par
+278     \}\par
+279 \par
+280     {\cf18 void} drawDifference(Operation operation, VennDiagram vd, {\cf18 bool} isLeft = {\cf17 true}) \{\par
+281         drawBase(operation, vd);\par
+282         setfillstyle(SOLID_FILL, COLOR(255, 173, 173));\par
+283 \par
+284         {\cf19 if} (isLeft) \{\par
+285             floodfill(700, 200, BLACK);\par
+286         \}\par
+287         {\cf19 else} \{\par
+288             floodfill(1000, 200, BLACK);\par
+289         \}\par
+290 \par
+291         setcolor(BLACK);\par
+292         settextstyle(4, 0, 1);\par
+293         setbkcolor(COLOR(255, 173, 173));\par
+294 \par
+295         {\cf17 auto} leftPositions = _vennPositions.at({\cf22 "left"});\par
+296         {\cf17 auto} rightPositions = _vennPositions.at({\cf22 "right"});\par
+297         {\cf17 auto} centerPositions = _vennPositions.at({\cf22 "center"});\par
+298 \par
+299         {\cf19 for} ({\cf18 int} i = 0; i < vd.getLeft().size(); i++) \{\par
+300             {\cf19 if} (i >= leftPositions.size()) {\cf19 break};\par
+301 \par
+302             {\cf18 int} x = std::get<0>(leftPositions.at(i));\par
+303             {\cf18 int} y = std::get<1>(leftPositions.at(i));\par
+304             setcolor(BLACK);\par
+305 \par
+306             {\cf19 if} (isLeft) \{\par
+307                 setbkcolor(COLOR(255, 173, 173));\par
+308             \}\par
+309             {\cf19 else} \{\par
+310                 setbkcolor(WHITE);\par
+311             \}\par
+312 \par
+313             outtextxy(x, y, ({\cf18 char}*)std::to_string(vd.getLeft().at(i)).c_str());\par
+314         \}\par
+315 \par
+316         {\cf19 for} ({\cf18 int} i = 0; i < vd.getRight().size(); i++) \{\par
+317             {\cf19 if} (i >= rightPositions.size()) {\cf19 break};\par
+318 \par
+319             {\cf18 int} x = std::get<0>(rightPositions.at(i));\par
+320             {\cf18 int} y = std::get<1>(rightPositions.at(i));\par
+321             setcolor(BLACK);\par
+322 \par
+323             {\cf19 if} (!isLeft) \{\par
+324                 setbkcolor(COLOR(255, 173, 173));\par
+325             \}\par
+326             {\cf19 else} \{\par
+327                 setbkcolor(WHITE);\par
+328             \}\par
+329 \par
+330             outtextxy(x, y, ({\cf18 char}*)std::to_string(vd.getRight().at(i)).c_str());\par
+331         \}\par
+332 \par
+333         {\cf19 for} ({\cf18 int} i = 0; i < vd.getIntersection().size(); i++) \{\par
+334             {\cf19 if} (i >= centerPositions.size()) {\cf19 break};\par
+335 \par
+336             {\cf18 int} x = std::get<0>(centerPositions.at(i));\par
+337             {\cf18 int} y = std::get<1>(centerPositions.at(i));\par
+338             setcolor(BLACK);\par
+339             setbkcolor(WHITE);\par
+340             outtextxy(x, y, ({\cf18 char}*)std::to_string(vd.getIntersection().at(i)).c_str());\par
+341         \}\par
+342 \par
+343         std::string resultSetString = (isLeft ? {\cf22 "A - B = \{"} : {\cf22 "B - A = \{"});\par
+344         Set resultSet = operation.doDifference();\par
+345         {\cf17 auto} values = resultSet.getAsVector();\par
+346 \par
+347         {\cf19 for} ({\cf18 int} i = 0; i < values.size(); i++) \{\par
+348             {\cf18 int} n = values.at(i);\par
+349             resultSetString += std::to_string(n);\par
+350 \par
+351             {\cf19 if} (i < values.size() - 1) \{\par
+352                 resultSetString += {\cf22 ", "};\par
+353             \}\par
+354         \}\par
+355 \par
+356         resultSetString += {\cf22 "\}"};\par
+357 \par
+358         setcolor(BLACK);\par
+359         settextstyle(3, 0, 1);\par
+360         setbkcolor(BG_COLOR);\par
+361         outtextxy(50, 340, ({\cf18 char}*)resultSetString.c_str());\par
+362 \par
+363         setcolor(BLACK);\par
+364         settextstyle(0, 0, 2);\par
+365         setbkcolor(BG_COLOR);\par
+366         outtextxy(750, 400, ({\cf18 char}*){\cf22 "------DIFERENCIA------"});\par
+367         \par
+368     \}\par
+369 \par
+370     {\cf18 void} drawSymmetricDifference(Operation operation, VennDiagram vd) \{\par
+371         drawBase(operation, vd);\par
+372         setfillstyle(SOLID_FILL, COLOR(255, 173, 173));\par
+373         floodfill(700, 200, BLACK);\par
+374         floodfill(1000, 200, BLACK);\par
+375 \par
+376         setcolor(BLACK);\par
+377         settextstyle(4, 0, 1);\par
+378         setbkcolor(COLOR(255, 173, 173));\par
+379 \par
+380         {\cf17 auto} leftPositions = _vennPositions.at({\cf22 "left"});\par
+381         {\cf17 auto} rightPositions = _vennPositions.at({\cf22 "right"});\par
+382         {\cf17 auto} centerPositions = _vennPositions.at({\cf22 "center"});\par
+383 \par
+384         {\cf19 for} ({\cf18 int} i = 0; i < vd.getLeft().size(); i++) \{\par
+385             {\cf19 if} (i >= leftPositions.size()) {\cf19 break};\par
+386 \par
+387             {\cf18 int} x = std::get<0>(leftPositions.at(i));\par
+388             {\cf18 int} y = std::get<1>(leftPositions.at(i));\par
+389             setcolor(BLACK);\par
+390             outtextxy(x, y, ({\cf18 char}*)std::to_string(vd.getLeft().at(i)).c_str());\par
+391         \}\par
+392 \par
+393         {\cf19 for} ({\cf18 int} i = 0; i < vd.getRight().size(); i++) \{\par
+394             {\cf19 if} (i >= rightPositions.size()) {\cf19 break};\par
+395 \par
+396             {\cf18 int} x = std::get<0>(rightPositions.at(i));\par
+397             {\cf18 int} y = std::get<1>(rightPositions.at(i));\par
+398             setcolor(BLACK);\par
+399             setbkcolor(COLOR(255, 173, 173));\par
+400             outtextxy(x, y, ({\cf18 char}*)std::to_string(vd.getRight().at(i)).c_str());\par
+401         \}\par
+402 \par
+403         {\cf19 for} ({\cf18 int} i = 0; i < vd.getIntersection().size(); i++) \{\par
+404             {\cf19 if} (i >= centerPositions.size()) {\cf19 break};\par
+405 \par
+406             {\cf18 int} x = std::get<0>(centerPositions.at(i));\par
+407             {\cf18 int} y = std::get<1>(centerPositions.at(i));\par
+408             setcolor(BLACK);\par
+409             setbkcolor(WHITE);\par
+410             outtextxy(x, y, ({\cf18 char}*)std::to_string(vd.getIntersection().at(i)).c_str());\par
+411         \}\par
+412 \par
+413         std::string resultSetString = {\cf22 "A (diferencia sim.) B = \{"};\par
+414         Set resultSet = operation.doSymmetricDifference();\par
+415         {\cf17 auto} values = resultSet.getAsVector();\par
+416 \par
+417         {\cf19 for} ({\cf18 int} i = 0; i < values.size(); i++) \{\par
+418             {\cf18 int} n = values.at(i);\par
+419             resultSetString += std::to_string(n);\par
+420 \par
+421             {\cf19 if} (i < values.size() - 1) \{\par
+422                 resultSetString += {\cf22 ", "};\par
+423             \}\par
+424         \}\par
+425 \par
+426         resultSetString += {\cf22 "\}"};\par
+427 \par
+428         setcolor(BLACK);\par
+429         settextstyle(3, 0, 1);\par
+430         setbkcolor(BG_COLOR);\par
+431         outtextxy(50, 340, ({\cf18 char}*)resultSetString.c_str());\par
+432 \par
+433         setcolor(BLACK);\par
+434         settextstyle(0, 0, 2);\par
+435         setbkcolor(BG_COLOR);\par
+436         outtextxy(750, 400, ({\cf18 char}*){\cf22 "--DIFERENCIA SIMETRICA--"});\par
+437     \}\par
+438 \par
+439     {\cf18 void} drawComplement(Operation operation, VennDiagram vd, {\cf18 bool} isLeft) \{\par
+440         drawBase(operation, vd);\par
+441         setfillstyle(SOLID_FILL, COLOR(255, 173, 173));\par
+442 \par
+443         {\cf19 if} (isLeft) \{\par
+444             floodfill(700, 200, BLACK);\par
+445         \}\par
+446         {\cf19 else} \{\par
+447             floodfill(1000, 200, BLACK);\par
+448         \}\par
+449 \par
+450         setfillstyle(SOLID_FILL, COLOR(255, 173, 173));\par
+451         floodfill(612, 32, BLACK);\par
+452 \par
+453         setcolor(BLACK);\par
+454         settextstyle(4, 0, 1);\par
+455         setbkcolor(COLOR(255, 173, 173));\par
+456 \par
+457         {\cf17 auto} leftPositions = _vennPositions.at({\cf22 "left"});\par
+458         {\cf17 auto} rightPositions = _vennPositions.at({\cf22 "right"});\par
+459         {\cf17 auto} centerPositions = _vennPositions.at({\cf22 "center"});\par
+460 \par
+461         {\cf19 for} ({\cf18 int} i = 0; i < vd.getLeft().size(); i++) \{\par
+462             {\cf19 if} (i >= leftPositions.size()) {\cf19 break};\par
+463 \par
+464             {\cf18 int} x = std::get<0>(leftPositions.at(i));\par
+465             {\cf18 int} y = std::get<1>(leftPositions.at(i));\par
+466             setcolor(BLACK);\par
+467 \par
+468             {\cf19 if} (isLeft) \{\par
+469                 setbkcolor(COLOR(255, 173, 173));\par
+470             \}\par
+471             {\cf19 else} \{\par
+472                 setbkcolor(WHITE);\par
+473             \}\par
+474 \par
+475             outtextxy(x, y, ({\cf18 char}*)std::to_string(vd.getLeft().at(i)).c_str());\par
+476         \}\par
+477 \par
+478         {\cf19 for} ({\cf18 int} i = 0; i < vd.getRight().size(); i++) \{\par
+479             {\cf19 if} (i >= rightPositions.size()) {\cf19 break};\par
+480 \par
+481             {\cf18 int} x = std::get<0>(rightPositions.at(i));\par
+482             {\cf18 int} y = std::get<1>(rightPositions.at(i));\par
+483             setcolor(BLACK);\par
+484 \par
+485             {\cf19 if} (!isLeft) \{\par
+486                 setbkcolor(COLOR(255, 173, 173));\par
+487             \}\par
+488             {\cf19 else} \{\par
+489                 setbkcolor(WHITE);\par
+490             \}\par
+491 \par
+492             outtextxy(x, y, ({\cf18 char}*)std::to_string(vd.getRight().at(i)).c_str());\par
+493         \}\par
+494 \par
+495         {\cf19 for} ({\cf18 int} i = 0; i < vd.getIntersection().size(); i++) \{\par
+496             {\cf19 if} (i >= centerPositions.size()) {\cf19 break};\par
+497 \par
+498             {\cf18 int} x = std::get<0>(centerPositions.at(i));\par
+499             {\cf18 int} y = std::get<1>(centerPositions.at(i));\par
+500             setcolor(BLACK);\par
+501             setbkcolor(WHITE);\par
+502             outtextxy(x, y, ({\cf18 char}*)std::to_string(vd.getIntersection().at(i)).c_str());\par
+503         \}\par
+504         {\cf19 if} (!isLeft) \{\par
+505             std::string resultSetString = {\cf22 "A (complemento) B = \{"};\par
+506             Set resultSet = operation.doComplement();\par
+507             {\cf17 auto} values = resultSet.getAsVector();\par
+508             {\cf19 for} ({\cf18 int} i = 0; i < values.size(); i++) \{\par
+509                 {\cf18 int} n = values.at(i);\par
+510                 resultSetString += std::to_string(n);\par
+511 \par
+512                 {\cf19 if} (i < values.size() - 1) \{\par
+513                     resultSetString += {\cf22 ", "};\par
+514                 \}\par
+515             \}\par
+516 \par
+517             resultSetString += {\cf22 "\}"};\par
+518 \par
+519             setcolor(BLACK);\par
+520             settextstyle(3, 0, 1);\par
+521             setbkcolor(BG_COLOR);\par
+522             outtextxy(50, 340, ({\cf18 char}*)resultSetString.c_str());\par
+523         \}\par
+524         {\cf19 else} \{\par
+525             std::string resultSetString = {\cf22 "B (complemento) A = \{"};\par
+526             Set resultSet = operation.doComplement();\par
+527             {\cf17 auto} values = resultSet.getAsVector();\par
+528             {\cf19 for} ({\cf18 int} i = 0; i < values.size(); i++) \{\par
+529                 {\cf18 int} n = values.at(i);\par
+530                 resultSetString += std::to_string(n);\par
+531 \par
+532                 {\cf19 if} (i < values.size() - 1) \{\par
+533                     resultSetString += {\cf22 ", "};\par
+534                 \}\par
+535             \}\par
+536 \par
+537             resultSetString += {\cf22 "\}"};\par
+538 \par
+539             setcolor(BLACK);\par
+540             settextstyle(3, 0, 1);\par
+541             setbkcolor(BG_COLOR);\par
+542             outtextxy(50, 340, ({\cf18 char}*)resultSetString.c_str());\par
+543         \}       \par
+544 \par
+545         setcolor(BLACK);\par
+546         settextstyle(0, 0, 2);\par
+547         setbkcolor(BG_COLOR);\par
+548         outtextxy(750, 400, ({\cf18 char}*){\cf22 "------COMPLEMENTO------"});\par
+549     \}\par
+550 \par
+551 \par
+552     {\cf17 static} {\cf18 void} drawPlane() \{\par
+553         setcolor(RED);\par
+554         settextstyle(0, 0, 2);\par
+555         setbkcolor(BG_COLOR);\par
+556         outtextxy(100, 420, ({\cf18 char}*){\cf22 "********************BIG O********************"});\par
+557 \par
+558         setcolor(BLACK);\par
+559         line(100, 450, 100, 700);\par
+560         line(100, 700, 400, 700);\par
+561 \par
+562         settextstyle(3, 0, 1);\par
+563         setbkcolor(BG_COLOR);\par
+564         setcolor(BLACK);\par
+565         outtextxy(110, 450, ({\cf18 char}*){\cf22 "Tiempo"});\par
+566 \par
+567         settextstyle(3, 0, 1);\par
+568         setbkcolor(BG_COLOR);\par
+569         setcolor(BLACK);\par
+570         outtextxy(320, 710, ({\cf18 char}*){\cf22 "Entrada"});\par
+571     \}\par
+572 \par
+573     {\cf17 static} {\cf18 void} drawBigO_n() \{\par
+574         drawPlane();\par
+575         setcolor(BLUE);\par
+576         setlinestyle(SOLID_LINE, 0, 2);\par
+577         line(100, 700, 370, 480);\par
+578 \par
+579         setcolor(BLUE);\par
+580         settextstyle(3, 0, 1);\par
+581         setbkcolor(BG_COLOR);\par
+582         outtextxy(380, 480, ({\cf18 char}*){\cf22 "O(n)"});\par
+583     \}\par
+584 \par
+585     {\cf17 static} {\cf18 void} drawBigO_nlogn() \{\par
+586         drawPlane();\par
+587         setcolor(RED);\par
+588         moveto(100, 700);\par
+589 \par
+590         {\cf19 for} ({\cf18 int} i = 1; i <= 10; i++) \{\par
+591             lineto(70 + i * 30, 700 - (i * log(i) * 20) / 3);\par
+592         \}\par
+593 \par
+594         setcolor(RED);\par
+595         settextstyle(3, 0, 1);\par
+596         setbkcolor(BG_COLOR);\par
+597         outtextxy(380, 480, ({\cf18 char}*){\cf22 "O(n log n)"});\par
+598     \}\par
+599 \par
+600     {\cf17 static} {\cf18 void} drawBigO_2n() \{\par
+601         drawPlane();\par
+602         setcolor(GREEN);\par
+603         moveto(100, 700);\par
+604 \par
+605         {\cf19 for} ({\cf18 int} i = 1; i <= 5; i++) \{\par
+606             lineto(100 + i * 30, 700 - pow(2, i) * 8);\par
+607         \}\par
+608 \par
+609         setcolor(GREEN);\par
+610         settextstyle(3, 0, 1);\par
+611         setbkcolor(BG_COLOR);\par
+612         outtextxy(300, 440, ({\cf18 char}*){\cf22 "O(2^n)"});\par
+613     \}\par
+614 \par
+615 \};\par
+616 \par
+617 \par
+618 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/main.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/main.cpp}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/main.cpp}
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "SetsApp.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funciones\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b main} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de las funciones\par
+\pard\plain 
+{\xe \v main\:main.cpp}
+{\xe \v main.cpp\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int main ()}}
+\par
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Operation.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Operation.cpp}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Operation.cpp}
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "Operation.h"}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Operation.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Operation.h}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Operation.h}
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "Set.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Estructuras de datos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Operation}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Operation.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Operation.h}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Operation.h}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+Ir a la documentaci\'F3n de este archivo.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #pragma once}\par
+2 {\cf21 #include "Set.h"}\par
+3 \par
+4 {\cf17 class }Operation \{\par
+5 {\cf17 public}:\par
+6     Operation(Set a, Set b);\par
+7     Set getA();\par
+8     Set getB();\par
+9     Set doUnion();\par
+10     Set doIntersection();\par
+11     Set doDifference();\par
+12     Set doSymmetricDifference();\par
+13     Set doComplement();\par
+14 \par
+15 {\cf17 private}:\par
+16     Set _a;\par
+17     Set _b;\par
+18 \par
+19     {\cf18 void} backtrackDifference(std::set<int>& a, std::set<int>& b, std::set<int>* result);\par
+20 \};\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Set.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Set.cpp}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Set.cpp}
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "Set.h"}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Set.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Set.h}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Set.h}
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "Validacion.h"}\par
+{\f2 #include <vector>}\par
+{\f2 #include <string>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Estructuras de datos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Set}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Set.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Set.h}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Set.h}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+Ir a la documentaci\'F3n de este archivo.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #pragma once}\par
+2 {\cf21 #include "Validacion.h"}\par
+3 {\cf21 #include <vector>}\par
+4 {\cf21 #include <string>}\par
+5 \par
+6 {\cf17 class }Set \{\par
+7 {\cf17 public}:\par
+8     Set() = {\cf19 default};\par
+9     Set(std::set<int> data, std::string label = {\cf22 ""});\par
+10     Set(std::string label);\par
+11     {\cf18 void} insert({\cf18 int} n);\par
+12     std::set<int>& getData();\par
+13     std::vector<int> getAsVector();\par
+14     std::string getLabel();\par
+15     {\cf18 int} size();\par
+16 \par
+17 {\cf17 private}:\par
+18     std::set<int> _data;\par
+19     std::string _label;\par
+20 \};\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/SetsApp.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/SetsApp.cpp}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/SetsApp.cpp}
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "SetsApp.h"}\par
+{\f2 #include "GraphSet.h"}\par
+{\f2 #include <iostream>}\par
+{\f2 #include <graphics.h>}\par
+{\f2 #include <algorithm>}\par
+{\f2 #include <regex>}\par
+{\f2 #include <windows.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+defines\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b BG_COLOR}\~ WHITE\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de los 'defines'\par
+\pard\plain 
+{\xe \v BG_COLOR\:SetsApp.cpp}
+{\xe \v SetsApp.cpp\:BG_COLOR}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define BG_COLOR\~ WHITE}}
+\par
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/SetsApp.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/SetsApp.h}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/SetsApp.h}
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "Operation.h"}\par
+{\f2 #include "VennDiagram.h"}\par
+{\f2 #include <string>}\par
+{\f2 #include <optional>}\par
+{\f2 #include <conio.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Estructuras de datos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b SetsApp}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SetsApp.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/SetsApp.h}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/SetsApp.h}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+Ir a la documentaci\'F3n de este archivo.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #pragma once}\par
+2 {\cf21 #include "Operation.h"}\par
+3 {\cf21 #include "VennDiagram.h"}\par
+4 {\cf21 #include <string>}\par
+5 {\cf21 #include <optional>}\par
+6 {\cf21 #include <conio.h>}\par
+7 \par
+8 \par
+9 {\cf17 class }SetsApp \{\par
+10 {\cf17 public}:\par
+11     SetsApp();\par
+12     {\cf18 void} init();\par
+13     {\cf18 void} runMenu();\par
+14 \par
+15 {\cf17 private}:\par
+16     {\cf18 void} makeUnion();\par
+17     {\cf18 void} makeIntersection();\par
+18     {\cf18 void} makeDifference();\par
+19     {\cf18 void} makeSymmetricDifference();\par
+20     {\cf18 void} makeComplement();\par
+21 \par
+22     std::optional<int> scan_int(std::string message, {\cf18 int} min_value, {\cf18 int} max_value, {\cf18 bool} allowEmpty = {\cf17 true});\par
+23     Set scanSet(std::string message, std::string label);\par
+24     \par
+25 \};\par
+26 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Validacion.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Validacion.h}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Validacion.h}
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <string>}\par
+{\f2 #include <iostream>}\par
+{\f2 #include <fstream>}\par
+{\f2 #include <algorithm>}\par
+{\f2 #include <set>}\par
+{\f2 #include <limits>}\par
+{\f2 #include <random>}\par
+{\f2 #include <cctype>}\par
+{\f2 #include <regex>}\par
+{\f2 #include <iomanip>}\par
+{\f2 #include <sstream>}\par
+{\f2 #include <cfloat>}\par
+{\f2 #include <Windows.h>}\par
+{\f2 #include <conio.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Estructuras de datos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Validacion}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+defines\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b TAMANIO}\~ 8\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b DX}\~ \{2, 1, -1, -2, -2, -1, 1, 2\}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b DY}\~ \{1, 2, 2, 1, -1, -2, -2, -1\}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de los 'defines'\par
+\pard\plain 
+{\xe \v DX\:Validacion.h}
+{\xe \v Validacion.h\:DX}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define DX\~ \{2, 1, -1, -2, -2, -1, 1, 2\}}}
+\par
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v DY\:Validacion.h}
+{\xe \v Validacion.h\:DY}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define DY\~ \{1, 2, 2, 1, -1, -2, -2, -1\}}}
+\par
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v TAMANIO\:Validacion.h}
+{\xe \v Validacion.h\:TAMANIO}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define TAMANIO\~ 8}}
+\par
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Validacion.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Validacion.h}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/Validacion.h}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+Ir a la documentaci\'F3n de este archivo.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #pragma once}\par
+2 {\cf21 #include <string>}\par
+3 {\cf21 #include <iostream>}\par
+4 {\cf21 #include <fstream>}\par
+5 {\cf21 #include <algorithm>}\par
+6 {\cf21 #include <set>}\par
+7 {\cf21 #include <limits>}\par
+8 {\cf21 #include <random>}\par
+9 {\cf21 #include <cctype>}\par
+10 {\cf21 #include <regex>}\par
+11 {\cf21 #include <iomanip>}\par
+12 {\cf21 #include <sstream>}\par
+13 {\cf21 #include <cfloat>}\par
+14 {\cf21 #include <Windows.h>}\par
+15 {\cf21 #include <conio.h>}\par
+16 {\cf21 #define TAMANIO 8}\par
+17 {\cf21 #define DX \{2, 1, -1, -2, -2, -1, 1, 2\}}\par
+18 {\cf21 #define DY \{1, 2, 2, 1, -1, -2, -2, -1\}}\par
+19 \par
+20 {\cf17 using namespace }std;\par
+21 \par
+22 {\cf17 class }Validacion\par
+23 \{\par
+24 {\cf17 public}:\par
+25     {\cf17 static} {\cf18 void} limpiar_consola() \{\par
+26         COORD topLeft = \{ 0, 0 \};\par
+27         HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);\par
+28         CONSOLE_SCREEN_BUFFER_INFO screen;\par
+29         DWORD written;\par
+30 \par
+31         GetConsoleScreenBufferInfo(console, &screen);\par
+32         FillConsoleOutputCharacterA(\par
+33             console, {\cf23 ' '}, screen.dwSize.X * screen.dwSize.Y, topLeft, &written);\par
+34         FillConsoleOutputAttribute(\par
+35             console, FOREGROUND_GREEN | FOREGROUND_RED | FOREGROUND_BLUE,\par
+36             screen.dwSize.X * screen.dwSize.Y, topLeft, &written);\par
+37         SetConsoleCursorPosition(console, topLeft);\par
+38     \}\par
+39 \par
+40     {\cf17 static} std::string leer_cadena({\cf17 const} std::string etiqueta, {\cf18 bool} permitir_vacio = {\cf17 false}) \{\par
+41         std::string leido;\par
+42 \par
+43         {\cf19 if} (permitir_vacio) \{\par
+44             std::getline(std::cin, leido);\par
+45         \}\par
+46         {\cf19 else} \{\par
+47             {\cf19 while} ((std::cout << etiqueta),\par
+48                 std::getline(std::cin, leido), leido.empty())\par
+49                 ;\par
+50         \}\par
+51 \par
+52         {\cf19 return} leido;\par
+53     \}\par
+54 \par
+55     {\cf17 static} {\cf18 int} leer_cadena_regex({\cf17 const} std::string etiqueta, std::string regex) \{\par
+56         std::string leido;\par
+57         std::regex cadena_regex(regex);\par
+58 \par
+59         {\cf19 do} \{\par
+60             leido = leer_cadena(etiqueta);\par
+61 \par
+62             {\cf19 if} (!std::regex_match(leido, cadena_regex)) \{               \par
+63                 cout << {\cf22 "Formato invalido"}<<endl;\par
+64                 cout << {\cf22 "Reingresar: "};\par
+65             \}\par
+66         \} {\cf19 while} (!std::regex_match(leido, cadena_regex));\par
+67 \par
+68         {\cf19 return} stoi(leido);\par
+69     \}\par
+70 \par
+71     {\cf17 static} {\cf18 int} leer_entero(std::string etiqueta, {\cf18 int} minimo = INT_MIN, {\cf18 int} maximo = INT_MAX) \{\par
+72         {\cf18 int} leido;\par
+73         {\cf18 bool} valido;\par
+74 \par
+75         {\cf19 do} \{\par
+76             std::cout << etiqueta;\par
+77             std::cin >> leido;\par
+78 \par
+79             valido = !std::cin.fail();\par
+80 \par
+81             std::cin.clear();\par
+82             std::cin.ignore();\par
+83         \} {\cf19 while} (!valido || leido < minimo || leido > maximo);\par
+84 \par
+85         {\cf19 return} leido;\par
+86     \}\par
+87 \par
+88     {\cf17 static} {\cf18 bool} cadenas_iguales(std::string a, std::string b) \{\par
+89         a = trim_cadena(cadena_minusculas(a));\par
+90         b = trim_cadena(cadena_minusculas(b));\par
+91 \par
+92         {\cf19 return} a == b;\par
+93     \}\par
+94 \par
+95     {\cf17 static} {\cf18 float} leer_flotante(std::string etiqueta, {\cf18 float} minimo = DBL_MIN, {\cf18 float} maximo = DBL_MAX) \{\par
+96         {\cf18 float} leido;\par
+97         {\cf18 bool} valido;\par
+98 \par
+99         {\cf19 do} \{\par
+100             std::cout << etiqueta;\par
+101             leido=Validacion::ingresar_DatosReales();\par
+102 \par
+103             valido = !std::cin.fail();\par
+104 \par
+105             std::cin.clear();\par
+106             std::cin.ignore();          \par
+107         \} {\cf19 while} (!valido || leido < minimo || leido > maximo);\par
+108 \par
+109         {\cf19 return} leido;\par
+110     \}\par
+111 \par
+112     {\cf17 static} {\cf18 bool} cedula_valida({\cf17 const} std::string cedula) \{\par
+113         {\cf19 if} (cedula.length() != 10) \{\par
+114             {\cf19 return} {\cf17 false};\par
+115         \}\par
+116 \par
+117         {\cf18 int} sum_par = 0;\par
+118         {\cf18 int} sum_impar = 0;\par
+119         {\cf18 int} sum;\par
+120         {\cf18 int} i = 1;\par
+121 \par
+122         std::string digits = cedula.substr(0, cedula.size() - 1);\par
+123 \par
+124         {\cf19 for} ({\cf18 char}& c : digits) \{\par
+125             {\cf18 int} digit = c - {\cf23 '0'};\par
+126             {\cf19 if} (i % 2 == 0) \{\par
+127                 sum_par += digit;\par
+128             \}\par
+129             {\cf19 else} \{\par
+130                 {\cf19 if} ((digit * 2) > 9) \{\par
+131                     sum_impar += (digit * 2) - 9;\par
+132                 \}\par
+133                 {\cf19 else} \{\par
+134                     sum_impar += (digit * 2);\par
+135                 \}\par
+136             \}\par
+137             i++;\par
+138         \}\par
+139 \par
+140         sum = sum_par + sum_impar;\par
+141 \par
+142         {\cf18 int} verifier = cedula.at(cedula.size() - 1) - {\cf23 '0'};\par
+143         {\cf18 int} higher = (10 - (sum % 10)) + sum;\par
+144 \par
+145         {\cf19 if} (sum % 10 == 0) \{\par
+146             {\cf19 return} verifier == 0;\par
+147         \}\par
+148 \par
+149         {\cf19 return} (higher - sum) == verifier;\par
+150     \}\par
+151     \par
+152     \par
+153 \par
+154 \par
+155     {\cf17 static} std::string trim_cadena(std::string cadena) \{\par
+156         {\cf17 auto} wsfront = std::find_if_not(cadena.begin(), cadena.end(), []({\cf18 int} c) \{ return std::isspace(c); \});\par
+157         {\cf17 auto} wsback = std::find_if_not(cadena.rbegin(), cadena.rend(), []({\cf18 int} c) \{ return std::isspace(c); \}).base();\par
+158         {\cf19 return} (wsback <= wsfront ? std::string() : std::string(wsfront, wsback));\par
+159     \}\par
+160 \par
+161     \par
+162     \par
+163 \par
+164     {\cf17 static} std::string cadena_minusculas(std::string cadena) \{\par
+165         std::string resultado(cadena);\par
+166 \par
+167         std::transform(resultado.begin(), resultado.end(), resultado.begin(), []({\cf18 unsigned} {\cf18 char} c) \{\par
+168             return std::tolower(c);\par
+169             \});\par
+170 \par
+171         {\cf19 return} resultado;\par
+172     \}\par
+173 \par
+174     {\cf17 static} {\cf18 bool} existe_archivo(std::string nombre_archivo) \{\par
+175         {\cf19 return} std::ifstream(nombre_archivo.c_str()).good();\par
+176     \}\par
+177 \par
+178     {\cf17 static} {\cf18 int} generar_aleatorio({\cf18 int} minimo = INT_MIN, {\cf18 int} maximo = INT_MAX) \{\par
+179         std::random_device rd;\par
+180         {\cf17 static} std::mt19937 gen(rd());\par
+181         std::uniform_int_distribution<> dis(minimo, maximo);\par
+182 \par
+183         {\cf19 return} dis(gen);\par
+184     \}\par
+185     \par
+186 \par
+187     {\cf17 static} std::string decimal_fixed({\cf18 float} valor, {\cf18 int} precision = 2) \{\par
+188         std::stringstream ss;\par
+189         ss << std::fixed << std::setprecision(precision) << valor;\par
+190         {\cf19 return} ss.str();\par
+191     \}\par
+192 \par
+193     \par
+194 \par
+195     {\cf17 static} {\cf18 int} ingresar_DatosEnteros()\par
+196     \{\par
+197         {\cf18 char}* dato = {\cf17 new} {\cf18 char}[10], c;\par
+198         {\cf18 int} i = 0;      \par
+199         {\cf19 while} ((c = _getch()) != 13) \{\par
+200             {\cf19 if} (c >= {\cf23 '0'} && c <= {\cf23 '9'}) \{\par
+201                 printf({\cf22 "%c"}, c);\par
+202                 dato[i++] = c;\par
+203             \}\par
+204             {\cf19 else} {\cf19 if} (c == 8 || c == 127) \{\par
+205                 printf({\cf22 "\\b \\b"});\par
+206                 dato[i--] = 0;\par
+207             \}\par
+208         \}\par
+209         dato[i] = {\cf23 '\\0'};\par
+210         {\cf19 return} atoi(dato);\par
+211     \}\par
+212 \par
+213     {\cf17 static} {\cf18 float} ingresar_DatosReales()\par
+214     \{\par
+215         {\cf18 char}* dato = {\cf17 new} {\cf18 char}[10], c;\par
+216         {\cf18 int} i = 0, punto = 0;       \par
+217         {\cf19 while} ((c = _getch()) != 13) \{\par
+218             {\cf19 if} (c >= {\cf23 '0'} && c <= {\cf23 '9'}) \{\par
+219                 printf({\cf22 "%c"}, c);\par
+220                 dato[i++] = c;\par
+221             \}\par
+222             {\cf19 else} {\cf19 if} (c == 8 || c == 127) \{\par
+223                 printf({\cf22 "\\b \\b"});\par
+224                 dato[i--] = 0;\par
+225             \}\par
+226             {\cf19 else} {\cf19 if} (c == {\cf23 '.'} && punto == 0) \{\par
+227                 printf({\cf22 "%c"}, c);\par
+228                 dato[i++] = c;\par
+229                 punto--;\par
+230             \}\par
+231         \}\par
+232         dato[i] = {\cf23 '\\0'};\par
+233         {\cf19 return} atof(dato);\par
+234     \}\par
+235 \};\par
+236 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/VennDiagram.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/VennDiagram.cpp}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/VennDiagram.cpp}
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "VennDiagram.h"}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/VennDiagram.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/VennDiagram.h}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/VennDiagram.h}
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "Validacion.h"}\par
+{\f2 #include <vector>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Estructuras de datos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b VennDiagram}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+VennDiagram.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/VennDiagram.h}
+{\xe \v C:/Users/adria/Documents/Estructura de Datos 7999/Proyecto 3/OperacionConjuntos/VennDiagram.h}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+Ir a la documentaci\'F3n de este archivo.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #pragma once}\par
+2 {\cf21 #include "Validacion.h"}\par
+3 {\cf21 #include <vector>}\par
+4 \par
+5 {\cf17 class }VennDiagram \{\par
+6 {\cf17 public}:\par
+7     VennDiagram(std::set<int> a, std::set<int> b);\par
+8 \par
+9     std::vector<int> getLeft();\par
+10     std::vector<int> getRight();\par
+11     std::vector<int> getIntersection();\par
+12 \par
+13 {\cf17 private}:\par
+14     std::set<int> _a;\par
+15     std::set<int> _b;\par
+16     std::set<int> _left;\par
+17     std::set<int> _right;\par
+18     std::set<int> _intersection;\par
+19 \par
+20     {\cf18 void} compute();\par
+21 \};\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \'CDndice\par 
+\pard\plain 
+{\tc \v \'CDndice}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}
