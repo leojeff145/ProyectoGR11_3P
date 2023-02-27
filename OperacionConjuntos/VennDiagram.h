@@ -1,5 +1,6 @@
 #pragma once
 #include "Validacion.h"
+#include <set>
 #include <vector>
 
 class VennDiagram {
